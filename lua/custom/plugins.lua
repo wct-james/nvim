@@ -13,6 +13,7 @@ local plugins = {
         "eslint-lsp",
         "prettier",
         "typescript-language-server",
+        "lua-language-server",
         "gopls",
         "pyright",
         "mypy",
@@ -27,6 +28,6 @@ local plugins = {
        require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
     end,
-  },
+  }
 }
 return plugins
