@@ -19,6 +19,7 @@ local plugins = {
         "mypy",
         "ruff",
         "black",
+        "rust-analyzer",
       }
     }
   },
@@ -29,5 +30,10 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
+  {
+    'mrcjkb/rustaceanvim',
+    version = '^3', -- Recommended
+    ft = { 'rust' },
+  }
 }
 return plugins
