@@ -17,6 +17,7 @@ local plugins = {
         "gopls",
         "mypy",
         "ruff",
+        "ruff-lsp",
         "black",
         "rust-analyzer",
       }
