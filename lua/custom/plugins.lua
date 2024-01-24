@@ -15,7 +15,6 @@ local plugins = {
         "typescript-language-server",
         "lua-language-server",
         "gopls",
-        "pyright",
         "mypy",
         "ruff",
         "black",
