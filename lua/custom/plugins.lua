@@ -17,7 +17,7 @@ local plugins = {
         "gopls",
         "mypy",
         "ruff",
-        "pyright",
+        "jedi-language-server",
         "black",
         "rust-analyzer",
       }
