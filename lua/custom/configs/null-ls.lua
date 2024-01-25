@@ -9,6 +9,7 @@ local opts = {
     null_ls.builtins.formatting.goimports,
     null_ls.builtins.diagnostics.ruff,
     null_ls.builtins.formatting.black,
+    null_ls.builtins.formatting.rustfmt,
   },
   on_attach = function (client, bufnr)
     if client.supports_method("textDocument/formatting") then
