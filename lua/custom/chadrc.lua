@@ -3,6 +3,7 @@ local M = {}
 
 M.ui = {
   theme = 'rosepine',
+  transparency= true,
 
   nvdash = {
     load_on_startup = true,
